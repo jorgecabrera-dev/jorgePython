@@ -28,7 +28,7 @@ elif sueldo >= 1000000 and sueldo <= 1500000:
 elif sueldo >= 1500001:
     credito = credito + 1000000
 else:
-    print('')
+    credito = 0
     
 if nivel == 1:
     print('')
